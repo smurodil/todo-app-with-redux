@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fafafa;
+}
+
+.header h2{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.header img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}

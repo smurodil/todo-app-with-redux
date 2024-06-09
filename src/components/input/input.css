@@ -1,0 +1,28 @@
+.input {
+  background-color: var(--one);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid var(--four);
+}
+
+.input input::placeholder {
+  color: var(--four);
+}
+
+.input input.new-todo {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--five);
+}

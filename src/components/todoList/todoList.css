@@ -1,0 +1,10 @@
+.todo-list {
+  background-color: var(--one);
+  box-shadow: 0px 20px 20px 9px #00000014;
+}
+
+@media (max-width: 600px) {
+  .todo-list {
+    box-shadow: 0px 60px 20px 9px #00000014;
+  }
+}
